@@ -3,7 +3,7 @@
 }
 
 body {
-    margin-right: 1em;
+    margin-right: 0;
 }
 
 /*Content Header*/
@@ -37,25 +37,29 @@ section {
     margin-left: 1em;
     clear: left;
 }
+
+/*Right Fixed Nav*/
+
 img {
-    max-width: 100%;
+    max-width: 90%;
     border-radius: 100%;
     margin-bottom: 1%;
 }
 
 #fixedNav {
     position: fixed;
-    width: 33%;
-    left: 66%;
+    width: 34%;
+    top: 2em;
+    left: 69%;
     max-height: 90%;
     overflow-y: auto;
     overflow-x: hidden;
 }
 
-#fixedNav a {
+#fixedNav .navText {
     display: inline-block;
     width: 100%;
-    padding-left: 30%;
+    padding-left: 25%;
     padding-top: 5%;
 }
 
