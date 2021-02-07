@@ -1,0 +1,43 @@
+* {
+    font-family: "Proxima-nova", Helvetica, sans-serif;
+}
+
+#cv {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 100%;
+    margin-bottom: 1%;
+}
+
+#fixedNav {
+    background-color: lavender;
+    position: fixed;
+    width: 33%;
+    left: 66%;
+    max-height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#fixedNav a {
+    display: inline-block;
+    width: 100%;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    position: fixed;
+    width: 33%;
+    top: 95%;
+    left: 66%;
+    height: 10%;
+    background-color: lavenderblush;
+}
