@@ -1,13 +1,36 @@
 * {
-    font-family: "Proxima-nova", Helvetica, sans-serif;
+    font-family: "Proxima-nova", sans-serif;
 }
+
+/*Content Header*/
 
 #cv {
     display: block;
-    width: 100%;
+    max-width: 66%;
     float: left;
+    margin-left: 1em;
+    padding-right: 10em;
 }
 
+h1 {
+    font-weight: 800;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+section {
+    display: block;
+    width: 66%;
+    margin-left: 1em;
+    clear: left;
+}
 img {
     max-width: 100%;
     border-radius: 100%;
