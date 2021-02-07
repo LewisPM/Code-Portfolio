@@ -2,6 +2,10 @@
     font-family: "Proxima-nova", sans-serif;
 }
 
+body {
+    margin-right: 1em;
+}
+
 /*Content Header*/
 
 #cv {
@@ -22,8 +26,10 @@ h2 {
     font-weight: 700;
     font-size: 1.5em;
     margin-top: 0.5em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
+
+/*Content*/
 
 section {
     display: block;
@@ -38,7 +44,6 @@ img {
 }
 
 #fixedNav {
-    background-color: lavender;
     position: fixed;
     width: 33%;
     left: 66%;
@@ -62,5 +67,4 @@ footer {
     top: 95%;
     left: 66%;
     height: 10%;
-    background-color: lavenderblush;
 }
