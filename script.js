@@ -1,18 +1,33 @@
-let bodyElement = document.querySelector('section');
+/*onHover body Highlight function*/
 
-//bodyElements.forEach(bodyElement => )
+//static array of 'section' elements
+let bodyElements = document.querySelectorAll('section');
 
-let highlight = () => {
-    bodyElement.style.backgroundColor = 'lightgray';
+//movement actions
+let highlight = event => {
+    event.target.style.backgroundColor = 'lightgray';
 }
-let returnColor = () => {
-    bodyElement.style.backgroundColor = 'white';
+let returnColor = event => {
+    event.target.style.backgroundColor = '';
 }
 
-bodyElement.onmouseover = highlight;
-bodyElement.onmouseout = returnColor;
+//onHover highlight function
+let onHover = bodyElement => {
+    bodyElement.onmouseover = highlight;
+    bodyElement.onmouseout = returnColor;
+}
 
-//let navElement = document.getElementsByClassName('.navText');
+bodyElements.forEach(onHover);
+
+/*onClick Nav Body Highlight function
+
+let navElements = document.querySelectorAll('.navText');
+
+let onNavClick = navElement => {
+    navElement.onclick = highlight;
+    navElement.onmouseup = returnColor;
+}
+navElements.forEach(onNavClick);
 
 
-
+*/
