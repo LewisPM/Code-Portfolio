@@ -34,7 +34,17 @@ h2 {
     font-weight: 700;
     font-size: 1.5em;
     margin-top: 0.5em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+}
+
+hr {
+    width: 60%;
+    left: 1em;
+    float: left;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 1em;
+    margin-left: 1em;
 }
 
 /*Content*/
@@ -46,7 +56,13 @@ section {
     clear: left;
 }
 
+h3 {
+    padding-top: 1em;
+}
+
 /*Right Fixed Nav*/
+
+@media screen and (min-width: 525px) {
 
 img {
     max-width: 90%;
@@ -80,4 +96,32 @@ footer {
     top: 95%;
     left: 66%;
     height: 10%;
+}
+}
+
+@media screen and (max-width: 525px) {
+    
+    hr {
+        width: 90%;
+    }
+
+    img {
+        display: block;
+        position: fixed;
+        left: 68%;
+        max-width: 30%;
+        border-radius: 100%;
+        margin-top: 5%;
+    }
+
+    #fixedNav .navText{
+        position: fixed;
+        display: hidden;
+    }
+
+    footer {
+        font-size: 0.75em;
+        width: 100%;
+        height: 10%;
+    }
 }
