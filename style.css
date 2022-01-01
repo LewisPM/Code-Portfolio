@@ -65,9 +65,11 @@ h3 {
 @media screen and (min-width: 525px) {
 
 img {
-    max-width: 90%;
+    max-width: 70%;
     border-radius: 100%;
     margin-bottom: 1%;
+    float: right;
+    margin-right: 20%;
 }
 
 #fixedNav {
